@@ -27,8 +27,8 @@ def get_info():
         return jsonify({"error": "UTC time is not within +/- 2 hours."}), 400
 
     # Define the rest of the information
-    github_file_repo = "https://github.com/your_username/your_repo"
-    github_source_code_url = "https://github.com/your_username/your_repo/blob/main/source_code.py"
+    github_file_repo = "https://github.com/limFakson/Backend_Task"
+    github_source_code_url = "https://github.com/limFakson/Backend_Task/blob/main/testerapp.py"
     status_code = 200  # You can customize this based on your application logic
 
     # Create the JSON response
